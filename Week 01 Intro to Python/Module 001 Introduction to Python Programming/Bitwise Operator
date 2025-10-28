@@ -14,12 +14,12 @@ print(ans)
 A = 5
 B = 9
 ans = 5 ^ 9
-pirnt(ans)
+print(ans)
 
-#Bitwise Left Shift Operatior
+#Bitwise Left Shift Operation
 A = 10
 print("A * 2 = ", A << 1)
 
-#Bitwise Right Shift Operatior
+#Bitwise Right Shift Operation
 A = 128
 print("A * 2 = ", A >> 1)
