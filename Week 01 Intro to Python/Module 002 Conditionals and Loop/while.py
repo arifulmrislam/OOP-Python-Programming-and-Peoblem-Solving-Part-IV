@@ -37,11 +37,21 @@
 # while num <= 10 :
 #     print(num)
 #     num += 1
+# 
+# total = 0
+# num = 1
+# while num <= 10:
+#     if num % 2 == 0:
+#         print(num)
+#     num = num + 1
 
-total = 0
+
+
+
+
+
 num = 1
-while num <= 10:
-    if num % 2 == 0:
-        print(num)
-    num = num + 1
 
+while num <= 10:
+    num = num + 1
+    print(num)

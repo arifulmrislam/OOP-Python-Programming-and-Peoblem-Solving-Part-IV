@@ -10,13 +10,13 @@
 num1 = int(input())
 num2 = int(input())
 num3 = int(input())
-sum = num1 * num2 
+sum = num1 + num2 + num3 
 print(sum)
 
-a=input("Number 1\n")
+# a=input("Number 1\n")
 
-b=input("Number 2\n")
+# b=input("Number 2\n")
 
-c=a+b
+# c=a+b
 
-print(c)
+# print(c)

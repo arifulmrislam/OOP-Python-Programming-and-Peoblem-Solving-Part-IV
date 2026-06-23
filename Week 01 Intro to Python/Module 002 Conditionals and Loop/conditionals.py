@@ -1,9 +1,12 @@
-biryani_price = 300 
-kabab_price = 75
+# make a room tamp controller
 
-if biryani_price < 150 :
-    print('Sultan e khamu fokir homu!!')
-elif kabab_price < 50:
-    print('Kabab and naan aram kore khan')
-else :
-    print('Butter bon khamu cha diya')
+living_room = 33
+study_room = 28
+outdoor_front = 35
+
+if(living_room >= 35):
+    print(f"{living_room} temp is lower than your expectation")
+elif (study_room < outdoor_front):
+    print(f"Hey!! your are good to go for study because the temp is lower than {outdoor_front}")
+else:
+    print("You should stay at home!")

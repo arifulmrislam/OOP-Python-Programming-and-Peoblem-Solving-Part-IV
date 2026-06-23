@@ -19,9 +19,11 @@
 # a="Bd"
 # for i in range(len(a)):
 #     print(i,end="")
+# 
+# i=1
+# while(i<3):
+#     print(i)
+#     i+=1
 
-i=1
-while(i<3):
+for i in range(1, 50, 2):
     print(i)
-    i+=1
-    
