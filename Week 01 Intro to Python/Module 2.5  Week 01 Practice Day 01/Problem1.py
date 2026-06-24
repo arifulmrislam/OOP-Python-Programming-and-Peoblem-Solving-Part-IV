@@ -1,15 +1,30 @@
 
 """
-Write a python that takes a floating number from users using input() 
-and outputs both Floor and Ceil of that number. 
+Suppose you have a floating number N.1 then.
+Floor is the greatest integer less than or equal to N. And Ceil is the smallest number greater than or equal to N.1
+Example: for 3.4 Floor is 3 and Ceil if 4
 """
 import math
-num1 = float((input("Enter a float number: ")))
-num2 = float((input("Enter a ceil number: ")))
+num = float((input("Enter a float number: ")))
 
-print("Floor is",math.floor(num1))
-print("Ceil is",math.ceil(num2))
-print(f"The total are is: {num1 * num2}")
+floor_val = math.floor(num)
+ceil_val = math.ceil(num)
+
+print(f"Floor is {floor_val}")
+print(f"Ceil is {ceil_val}")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # In this program, three different variables a are defined in separate namespaces and accessed accordingly.
 
